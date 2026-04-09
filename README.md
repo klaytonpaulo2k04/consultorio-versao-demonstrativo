@@ -8,7 +8,7 @@ Projeto desenvolvido para um consultório odontológico real, com foco em design
 https://SEU-SITE.com
 
 💻 Versão demonstrativa:
-https://SEU-USUARIO.github.io/site-consultorio-odontologico/
+https://klaytonpaulo2k04.github.io/consultorio-versao-demonstrativo/
 
 ## 🛠 Tecnologias utilizadas
 - HTML
