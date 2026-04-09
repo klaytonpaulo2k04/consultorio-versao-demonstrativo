@@ -1,0 +1,41 @@
+/* 🔥 CORREÇÃO GLOBAL (MUITO IMPORTANTE) */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 🔥 REMOVE SCROLL LATERAL NO MOBILE */
+html, body {
+  overflow-x: hidden;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🔥 GARANTE QUE IMAGENS NÃO ESTOUREM */
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Gradiente usado no topo */
+.gradient-bg {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Efeito de hover em cartões */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Transição de visualização moderna */
+@view-transition {
+  navigation: auto;
+}
